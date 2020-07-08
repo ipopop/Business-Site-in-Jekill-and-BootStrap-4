@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "about-us"
 ---
 
 {% include navbar.html %}
@@ -20,5 +21,6 @@ layout: default
     </div>
 </div>
 
+<br class="mb-5"/>
 
 {% include footer.html %}
