@@ -8,7 +8,7 @@ title: "about-us"
 <div class="container pt-5 pb-3">
     <div class="row">
         <div class="col-md-12 mb-5">
-            <h1 class="display-6">We are a successful business!</h1>
+            <h1 class="display-6 font-weight-lighter">We are a successful business!</h1>
         </div>
         <div class="col-md-7">            
             {% include lorem-p.html %}    

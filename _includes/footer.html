@@ -1,7 +1,12 @@
 <div class="container-fluid bg-info pt-4 pb-2 fixed-bottom">
     <div class="container">
-        <p class="text-center text-white">
+        <p class="text-center text-white pb-0 mb-0">
             Copyright (c) 2020 Your Company
         </p>
+        <div class="text-center font-italic font-weight-lighter text-black-50 pb-2" style="font-size: smaller;">
+            {% assign date = '2020-07-08' %}
+
+            Date {{ date }} - Last Maj. : {{ date | timeago }}
+        </div>
     </div>    
 </div>

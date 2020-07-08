@@ -7,7 +7,7 @@ title: "contact"
 
 <div class="container pt-5 pb-5 ">
     <div class="row col-md-12 mb-5 d-flex justify-content-center">
-            <h1 class="display-6">Contact Us</h1>   
+            <h1 class="display-6 font-weight-lighter">Contact Us</h1>   
     </div>
     <div class="row col-md-12 d-flex justify-content-center">
         <div class="col-md-9">
