@@ -7,26 +7,23 @@ title: "home"
 
 {% include jumbotron.html %}
 
-<div class="container text-center pt-5 pb-3">
-    <h1 class="display-6 mb-3">Try our services</h1>
+<div class="container-fluid text-center pt-5 pb-3">
+    <h1 class="display-6 mb-3 font-weight-lighter">Try our services</h1>
     <p class="lead">We provide the very best services in our industry</p>
     <p class="">We are the industry leader in the services we provide our customers.</p>
 </div>
 
-<div class="container text-center pt-5 pb-3">
-    <div class="row text-left">
-        <div class="col-md-4">
-            {% include card-title.html %}
-        </div>
-        <div class="col-md-4">
-            {% include card-title.html %}
-        </div>
-        <div class="col-md-4">
-            {% include card-title.html %}
-        </div>
-    </div>
+<div class="container">
+	<div class="card-deck">
+		{% include card-title.html %}
+		{% include card-title.html %}
+		{% include card-title.html %}
+		{% include card-title.html %}
+	</div>
 </div>
 
+
 {% include blockquote.html %}
+<br/>
 
 {% include footer.html %}

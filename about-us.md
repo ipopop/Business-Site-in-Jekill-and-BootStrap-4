@@ -15,7 +15,7 @@ title: "about-us"
             {% include lorem-p.html %}    
             {% include lorem-p.html %}
         </div>
-        <div class="col-md-5 pt-1">
+        <div class="col-md-5 pt-1 mb-5">
             <img src="http://placehold.it/500x300" alt="responsive image" class="img-fluid">
         </div>        
     </div>

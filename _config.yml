@@ -76,7 +76,16 @@ kramdown:
   footnote_nr       : 1
   show_warnings     : false
 
+# Titles From Headings
 titles_from_headings:
   enabled:     true
   strip_title: false
   collections: false
+
+# Default Properties
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
