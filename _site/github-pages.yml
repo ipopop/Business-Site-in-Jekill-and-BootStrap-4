@@ -3,11 +3,7 @@ name: Build and deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-<<<<<<< HEAD
-      - gh-pages
-=======
       - master
->>>>>>> 9620deb... gem config & remove bg color to jumbotron
 
 jobs:
   github-pages:
