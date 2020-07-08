@@ -1,1 +1,1 @@
-Sitemap: /https://ipopop.github.io/Business-Site-in-Jekill-and-BootStrap-4/sitemap.xml
+Sitemap: /Business-Site-in-Jekill-and-BootStrap-4/sitemap.xml

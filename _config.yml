@@ -59,7 +59,7 @@ incremental         : false
 detach              : false
 port                : 4000
 host                : 127.0.0.1
-baseurl             : https://ipopop.github.io/Business-Site-in-Jekill-and-BootStrap-4 # does not include hostname
+baseurl             : Business-Site-in-Jekill-and-BootStrap-4 # does not include hostname
 show_dir_listing    : false
 
 # Outputting
