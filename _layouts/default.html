@@ -18,9 +18,13 @@
     {% seo %}
   </head>
   <body>
-        {% include navigation.html %}
+    <wrapper class="d-flex flex-column">
+      {% include navigation.html %}
+      <main class="flex-fill">
         {{ content }}
-        {% include footer.html %}
+      </main>
+      {% include footer.html %}
+    </wrapper>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

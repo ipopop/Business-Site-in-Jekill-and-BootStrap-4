@@ -6,9 +6,9 @@
 		"_sass/main.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";",
+		"@import \"main\";\n\nbody, wrapper {\n    min-height:100vh;\n }\n \n .flex-fill {\n    flex:1 1 auto;\n }",
 		"$backgroundColor: #f3f3f3;\n$bodyColor: #333;\n$bodyFont: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n\nbody {\n  background-color: $backgroundColor;\n  color: $bodyColor;\n  font-family: $bodyFont;\n}\n"
 	],
 	"names": [],
-	"mappings": "ACIA,AAAA,IAAI,CAAC,EACH,gBAAgB,EALA,OAAO,EAMvB,KAAK,EALK,IAAI,EAMd,WAAW,EALF,aAAa,EAAC,kBAAkB,EAAC,UAAU,EAAC,SAAS,EAAC,KAAK,EAAC,UAAU,EAAC,mBAAmB,EAAC,gBAAgB,EAAC,iBAAiB,GAMvI"
+	"mappings": "ACIA,AAAA,IAAI,CAAC,EACH,gBAAgB,EALA,OAAO,EAMvB,KAAK,EALK,IAAI,EAMd,WAAW,EALF,aAAa,EAAC,kBAAkB,EAAC,UAAU,EAAC,SAAS,EAAC,KAAK,EAAC,UAAU,EAAC,mBAAmB,EAAC,gBAAgB,EAAC,iBAAiB,GAMvI;;ADND,AAAA,IAAI,EAAE,OAAO,CAAC,EACV,UAAU,EAAC,KAAK,GAClB;;AAED,AAAA,UAAU,CAAC,EACR,IAAI,EAAC,QAAQ,GACf"
 }
