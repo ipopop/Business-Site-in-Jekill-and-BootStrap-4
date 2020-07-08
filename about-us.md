@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "about-us"
 ---
 
 {% include navbar.html %}
