@@ -90,6 +90,6 @@ defaults:
     values:
       layout: "default"
 
-url: ""
+post.url: ""
 # Add the baseurl if hosting on GitHub
 baseurl: Business-Site-in-Jekill-and-BootStrap-4
