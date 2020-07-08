@@ -2,10 +2,10 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "./bootstrap.min.css";
+@import "{{ site.baseurl }}{{ post.url }}/assets/css/bootstrap.min.css";
 
 .jumbotron {
-    background-image: url("../img/Pexels-architecture-buildings-business-city-325185.webp");
+    background-image: url("{{ site.baseurl }}{{ post.url }}/assets/img/Pexels-architecture-buildings-business-city-325185.webp");
     background-position-y: 40%;
     height: 400px;
   }
