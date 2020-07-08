@@ -9,12 +9,16 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | absolute_url }}">
+
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     
-    <title>Business-Site-in-Jekyll-and-BootStrap-4</title>
+    <title>{{ page.title }}</title>
+    {% feed_meta %}
+    {% seo %}
   </head>
   <body>
-
+        {% include navigation.html %}
         {{ content }}
 
     <!-- Optional JavaScript -->

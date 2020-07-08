@@ -10,7 +10,24 @@ sass:
   sass_dir: _sass
 collections:
   posts:
+  authors:
     output          : true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 # Handling Reading
 safe                : false
@@ -29,7 +46,7 @@ unpublished         : false
 
 # Plugins
 whitelist           : []
-plugins             : []
+plugins             : ["jekyll-feed", "jekyll-sitemap", "jekyll-seo-tag"]
 
 # Conversion
 markdown            : kramdown
@@ -42,7 +59,7 @@ incremental         : false
 detach              : false
 port                : 4000
 host                : 127.0.0.1
-baseurl             : "" # does not include hostname
+baseurl             : https://ipopop.github.io/Business-Site-in-Jekill-and-BootStrap-4 # does not include hostname
 show_dir_listing    : false
 
 # Outputting
@@ -89,7 +106,3 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-
-url: ""
-# Add the baseurl if hosting on GitHub
-baseurl: "Business-Site-in-Jekill-and-BootStrap-4"
