@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss"
+	],
+	"sourcesContent": [
+		"@import \"../../bootstrap-4/css/bootstrap.min.css\";\n\n.jumbotron {\n    background-image: url(\"../../img/Pexels-architecture-buildings-business-city-325185.webp\");\n    background-position-y: 40%;\n  }"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAP,4CAAO,CAEP,AAAA,UAAU,AAAC,CACP,gBAAgB,CAAE,wEAAwE,CAC1F,qBAAqB,CAAE,GAAG,CAC3B"
+}
