@@ -5,8 +5,8 @@
 		"main.scss"
 	],
 	"sourcesContent": [
-		"@import \"./bootstrap.min.css\";\n\n.jumbotron {\n    background-image: url(\"../img/Pexels-architecture-buildings-business-city-325185.webp\");\n    background-position-y: 40%;\n  }"
+		"@import \"./bootstrap.min.css\";\n\n.jumbotron {\n    background-image: url(\"../img/Pexels-architecture-buildings-business-city-325185.webp\");\n    background-position-y: 40%;\n    height: 400px;\n  }\n\n.bg-light-blue {\n  background-color: #bad1ea47;\n}"
 	],
 	"names": [],
-	"mappings": "AAAA,OAAO,CAAP,wBAAO,CAEP,AAAA,UAAU,AAAC,CACP,gBAAgB,CAAE,qEAAqE,CACvF,qBAAqB,CAAE,GAAG,CAC3B"
+	"mappings": "AAAA,OAAO,CAAP,wBAAO,CAEP,AAAA,UAAU,AAAC,CACP,gBAAgB,CAAE,qEAAqE,CACvF,qBAAqB,CAAE,GAAG,CAC1B,MAAM,CAAE,KAAK,CACd,AAEH,AAAA,cAAc,AAAC,CACb,gBAAgB,CAAE,SAAS,CAC5B"
 }
