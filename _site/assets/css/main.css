@@ -1,3 +1,6 @@
-@import url(/assets/css/bootstrap.min.css);.jumbotron{background-image:url("/assets/img/Pexels-architecture-buildings-business-city-325185.webp");background-position-y:40%;height:400px}.bg-light-blue{background-color:#bad1ea47}
+@import url(/assets/css/bootstrap.min.css);
+.jumbotron { background-image: url("/assets/img/Pexels-architecture-buildings-business-city-325185.webp"); background-position-y: 40%; height: 400px; }
+
+.bg-light-blue { background-color: #bad1ea47; }
 
 /*# sourceMappingURL=main.css.map */
