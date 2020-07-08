@@ -92,4 +92,4 @@ defaults:
 
 url: ""
 # Add the baseurl if hosting on GitHub
-baseurl: https://ipopop.github.io/Business-Site-in-Jekill-and-BootStrap-4
+baseurl: Business-Site-in-Jekill-and-BootStrap-4
