@@ -1,6 +1,6 @@
 <div class="container-fluid bg-info">
   <nav class="navbar navbar-expand-lg navbar-dark ml-4">
-    <a class="navbar-brand" href="{{ site.url }}{{ nav.url.Home }}">Your Company</a>
+    <a class="navbar-brand" href="{{ '/' | absolute_url }}">Your Company</a>
     <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#navbarTogglerButton" aria-controls="navbarTogglerButton" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -9,7 +9,7 @@
         {% assign navs = site.data.navigation %}
         {% for nav in navs %}
             <li class="nav-item {% if nav.link == page.url %} active{% endif %}">
-              <a class="nav-link" href="{{ nav.link }}">{{ nav.name }}</a>
+              <a class="nav-link" href="{{ nav.link | absolute_url }}">{{ nav.name }}</a>
             </li>
         {% endfor %}
       </ul>
