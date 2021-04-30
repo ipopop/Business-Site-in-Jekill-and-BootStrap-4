@@ -59,7 +59,7 @@ incremental         : false
 detach              : false
 port                : 4000
 host                : 127.0.0.1
-baseurl             : Business-Site-in-Jekill-and-BootStrap-4 # "" for local dev # does not include hostname
+baseurl             : Business-Site-in-jekyll-and-BootStrap-4 # "" for local dev # does not include hostname
 show_dir_listing    : false
 
 # Outputting
